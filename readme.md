@@ -6,7 +6,7 @@ To obtain the tokens, you need an account, upload an image to /photos/upload/, a
 
 ![Main Interface](Captura%20de%20pantalla%202025-12-11%200217261.png)
 
-## 🚀 Capabilities
+## Capabilities
 
 *   **Email-to-NSID Resolution**: Reverse looks up target emails to identify persistent unique identifiers (NSID) using Flickr's legacy API endpoints.
 *   **Account Information Retrieval**: Retrieves comprehensive account details including:
@@ -24,12 +24,12 @@ To obtain the tokens, you need an account, upload an image to /photos/upload/, a
 *   **Robust Authentication**: Supports session-based authentication via `api_key`, `auth_hash`, and `secret`.
 *   **Internationalization (i18n)**: Native support for English and Spanish locales.
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 *   Python 3.8+
 *   `requests` library
 
-## 📦 Installation
+## Installation
 
 1.  Clone the repository:
     ```bash
@@ -42,7 +42,7 @@ To obtain the tokens, you need an account, upload an image to /photos/upload/, a
     pip install requests
     ```
 
-## ⚙️ Configuration
+## Configuration
 
 The tool requires valid Flickr API session tokens (`api_key`, `auth_hash`, `secret`). These can be extracted from a logged-in session on Flickr (inspecting network traffic).
 
@@ -56,7 +56,7 @@ auth_hash=your_auth_hash_here
 secret=your_secret_here
 ```
 
-## 💻 Usage
+##  Usage
 
 Execute the script via terminal:
 
@@ -66,5 +66,5 @@ python flickr_osint.py
 
 Follow the interactive prompts to select language, input target email, and authentication method.
 
-## 📄 License
+##  License
 MIT License

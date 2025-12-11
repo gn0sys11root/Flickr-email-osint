@@ -4,6 +4,8 @@ A specialized OSINT automation tool designed for deep enumeration of Flickr user
 
 To obtain the tokens, you need an account, upload an image to /photos/upload/, and then, in the "Add People" menu, enter your account email address or another valid email address from another user. With DevTools open, in the Networks section, look for the server response that begins with "flickr.com/services/rest..." and then go to the Payloads section; there you will find the keys and temporary tokens.
 
+![Main Interface](Captura%20de%20pantalla%202025-12-11%200217261.png)
+
 ## 🚀 Capabilities
 
 *   **Email-to-NSID Resolution**: Reverse looks up target emails to identify persistent unique identifiers (NSID) using Flickr's legacy API endpoints.

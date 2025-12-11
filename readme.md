@@ -2,7 +2,7 @@
 
 A specialized OSINT automation tool designed for deep enumeration of Flickr user entities using email vectors. This utility leverages undocumented API endpoints to resolve email addresses to NSIDs (user IDs) and extracts comprehensive profile metadata and high-resolution digital assets.
 
-To obtain the tokens, you need an account, upload an image to /photos/upload/, and then, in the "Add People" menu, enter your account email address or another valid email address from another user. With DevTools open, in the Networks section, look for the server response that begins with "flickr.com/services/rest..." and then go to the Payloads section; there you will find the keys and temporary tokens.
+To obtain the tokens, you need an account, upload an image to /photos/upload/, and then, in the "Add People" menu, enter your account email address or another valid email address from another user. With DevTools open, in the Network section, look for the server response that begins with "/services/rest..." or "rest?format=" and then go to the Payload section; there you will find the keys and temporary tokens.
 
 ![Main Interface](Captura%20de%20pantalla%202025-12-11%200217261.png)
 
